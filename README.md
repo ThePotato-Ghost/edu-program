@@ -1,1 +1,5 @@
 # edu-program
+
+ menu
+
+ close
