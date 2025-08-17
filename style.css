@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-    background-color: aquamarine;
+    background-color: rgb(39, 44, 43);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 nav ul {
@@ -29,7 +29,7 @@ nav li {
 nav a {
     height: 100%;
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     padding: 0 30px;
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ nav li:first-child {
     font-size: 2rem;
 }
 nav a:hover {
-    background-color: hsl(160, 100%, 83%);
+    background-color: rgb(56, 63, 62);
     transition: background-color 0.35s ease;
     border-radius: 10px;
 }
@@ -51,7 +51,8 @@ nav a:hover {
     height:100vh;
     width: 250px;
     z-index: 999;
-    background-color: rgba(127, 255, 212, 0.534);
+    background-color: rgba(39, 44, 43, 0.753);
+    backdrop-filter: blur(10px);
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
     display: none;
     flex-direction: column;
@@ -69,15 +70,22 @@ nav a:hover {
         display: none;
     }
 }
-#logo {
+@media (min-width: 769px) {
+    .menu {
+        display: none;
+    }
+}
+.logo a {
     color:hsl(160, 100%, 83%);
+    font-size: 1.8rem;
+    font-weight: 800;
 }
 
 /* MAIN */
 
 .page1 {
     min-height: 100vh;
-    border: solid #000;
+    /* border: solid #000; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -118,7 +126,7 @@ nav a:hover {
     position: absolute;
     width: 100%;
     height: 3px;
-    background-color: hsl(0, 77%, 63%);
+    background-color:hsl(160, 84%, 58%);
     bottom: -10px;
 }
 .ftcol ul li{
@@ -127,7 +135,7 @@ nav a:hover {
     margin-bottom:5px;
 }
 .ftcol ul li a:hover {
-    color: hsl(0, 77%, 63%);
+    color: hsl(160, 84%, 58%);
     transition: 0.3s ease-in-out;
     padding-left: 15px;
 }
