@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     min-height: 100vh;
@@ -42,7 +43,7 @@ nav li:first-child {
 nav a:hover {
     background-color: rgb(56, 63, 62);
     transition: background-color 0.35s ease;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .sidebar {
     position: fixed;
@@ -86,9 +87,9 @@ nav a:hover {
 .page1 {
     min-height: 100vh;
     /* border: solid #000; */
-    display: flex;
+    /* display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; */
     
 }
 .content1 {

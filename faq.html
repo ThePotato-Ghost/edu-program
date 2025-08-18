@@ -7,28 +7,52 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ed</title>
+    <title>Edu Point</title>
+    <style>
+        .heading-div {
+            width: 95%;
+            height: 40vh;
+            border-radius: 20px;
+            background-color: rgb(39, 44, 43);
+            margin: 20px;
+            color: hsl(163, 100%, 90%);
+            padding: 30px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+        }
+        .heading-div h3 {
+            font-size: 2rem;
+            /* padding: 30px; */
+        }
+        .heading-div p {
+            font-size: 1.125rem;
+            margin-top: 20px;
+            line-height: 1.1;
+        }
+    </style>
 </head>
 <body>
     <nav>
          <ul class="sidebar">
-            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href="index.html">Home</a></li>
-            <li style="background-color:hsla(168, 6%, 66%, 0.753);"><a href="contact.html">Contact</a></li>
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li style="background-color:hsla(168, 6%, 66%, 0.753);"><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
             <li><a href="">Item</a></li>
         </ul>
         <ul>
-            <!-- <li id="logo"><a href="index.html"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg> Go back</a></li> -->
             <li class="logo"><a href="#">LOGO</a></li>
-            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="">Home</a></li>
             <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
-            <li class="hideOnMobile"><a href="#">Item</a></li>
-            <li class="menu" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#FFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            <li class="hideOnMobile"><a href="">Item</a></li>
+            <li onclick="showSidebar()" class="menu"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#fff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
         </ul>
     </nav>
     <main>
         <div class="page1">
-
+                <div class="heading-div">
+                    <h3>Looking For Help? <br>Here's our most Frequently Asked Questions!</h3>
+                    <p>Welcome to our FAQ section! Here, you’ll find clear and helpful answers to the questions we receive most often about our educational program. We’ve gathered this information to save you time and provide quick guidance on everything from enrollment and course details to program benefits and support.</p>
+                 </div>
+            </div>
         </div>
     </main>
     <footer>
@@ -44,7 +68,7 @@
                 <h3>Get Help</h3>
                 <br>
                 <ul>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                     <li><a href="#">Support</a></li>
                     <li><a href="#">Contanct Us</a></li>
                 </ul>
